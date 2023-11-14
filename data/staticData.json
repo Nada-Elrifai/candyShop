@@ -1,0 +1,131 @@
+
+{
+    "customer": {
+      "id":1,
+      "name": "Nada elrif",
+      "username": "Nada",
+      "email": "nada@gmail.com",
+      "password": "securepassword",
+      "isLoggedIn": true,
+      "addresses": ["123 Main St", "456 Second St"]
+      
+    },
+
+    
+    "shops": [
+      {
+      "id":1,
+      "name": "Candy Paradise",
+      "image": "shop_image.jpg",
+      "open": true,
+      "currency": "USD",
+      "products": [
+        {
+          "id":1,
+          "name": "Chocolate Bars",
+          "price": 1.99,
+          "available": true,
+          "image": "chocolate_bars_image.jpg",
+          "addOnsRequired": true,
+          "addOns": [
+            {"id": 101, "name": "Sour Coating", "price": 0.5, "available": true},
+            {"id": 102, "name": "Fruity Flavors", "price": 0.75, "available": false},
+            {"id": 103, "name": "Chocolate Drizzle", "price": 1.0, "available": true}
+          ]
+        },
+        {
+          "id":2,
+          "name": "Gummy Bears",
+          "price": 0.99,
+          "available": true,
+          "image": "gummy_bears_image.jpg",
+          "addOnsRequired": true,
+          "addOns": [
+            {"id": 104, "name": "Salted Caramel", "price": 1.25, "available": true},
+            {"id": 105, "name": "Chocolate Drizzle", "price": 1.5, "available": true},
+            {"id": 106, "name": "Nut Mix", "price": 2.0, "available": false}
+          ]
+        
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name": "Candy Haven ",
+      "image": "shop_image.jpg",
+      "open": false,
+      "currency": "USD",
+      "products": [
+        {
+          "id":1,
+          "name": "Chocolate Bars",
+          "price": 1.99,
+          "available": true,
+          "image": "chocolate_bars_image.jpg",
+          "addOnsRequired": true,
+          "addOns": [
+            {"id": 101, "name": "Sour Coating", "price": 0.5, "available": true},
+            {"id": 102, "name": "Fruity Flavors", "price": 0.75, "available": false},
+            {"id": 103, "name": "Chocolate Drizzle", "price": 1.0, "available": true}
+          ]
+        },
+        {
+          "id":2,
+          "name": "Gummy Bears",
+          "price": 0.99,
+          "available": false,
+          "image": "gummy_bears_image.jpg",
+          "addOnsRequired": true,
+          "addOns": [
+            {"id": 104, "name": "Salted Caramel", "price": 1.25, "available": true},
+            {"id": 105, "name": "Chocolate Drizzle", "price": 1.5, "available": true},
+            {"id": 106, "name": "Nut Mix", "price": 2.0, "available": false}
+          ]
+        }, 
+        {
+          "id": 3,
+          "name": "Lollipop",
+          "price": 1.99,
+          "available": true,
+          "image": "lollipop.jpg",
+          "addOnsRequired": false
+          
+        
+        }
+      ]
+    }
+  ],
+
+
+    "products": [
+      {
+        "id": 1,
+        "name": "Chocolate Bar",
+        "price": 2.99,
+        "available": true,
+        "image": "chocolate.jpg",
+        "addons":  ["Milk Chocolate", "Dark Chocolate"]
+      },
+
+      {
+        "id": 2,
+        "name": "Lollipop",
+        "price": 1.99,
+        "available": true,
+        "image": "lollipop.jpg",
+        "addons": ["Strawberry", "Lemon", "Orange"]
+        
+      },
+
+      {
+        "id": 3,
+        "name": "Gummy Bears",
+        "price": 3.99,
+        "available": false,
+        "image": "gummy_bears.jpg",
+        "addons":["Strawberry", "Lemon", "Orange"]
+      
+      }
+    ]
+  }
+  
